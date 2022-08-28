@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Kanit:wght@300&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:'Kanit', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    text-align: center;
+}
+
+.container h1, h2 {
+    padding: auto;
+    margin: auto;
+}
+
+
+
+.btn {
+    font-family: inherit;
+    letter-spacing: 0.1; /*문자간격*/
+    text-transform: uppercase; /*텍스트 대문자로 바꾸기 */
+    background: transparent; /* 투명색 */
+    color: black;
+    border: 2px dashed black;
+    font-size: 1rem;
+    font-weight: 700; /*폰트 굵기*/
+    padding: 0.75rem 1.25rem; /*상하 좌우*/
+    margin: 0.75rem 1rem;
+}
+

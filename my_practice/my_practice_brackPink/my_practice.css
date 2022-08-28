@@ -1,0 +1,12 @@
+.title {
+    border: 2px dashed firebrick;
+    padding: 10px 9px 8px 10px;
+    width:240px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.titles {
+    display: flex;
+    justify-content: center;
+}
